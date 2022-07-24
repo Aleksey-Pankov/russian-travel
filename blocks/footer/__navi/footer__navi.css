@@ -1,0 +1,12 @@
+.footer__navi {
+    display: grid;
+    column-gap: 18px;
+    grid-auto-flow: column;
+}
+
+@media screen and (max-width: 673px) {
+    .footer__navi {
+        grid-auto-flow: row;
+        row-gap: 32px;
+    }
+}

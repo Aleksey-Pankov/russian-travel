@@ -1,0 +1,34 @@
+.places {
+    margin: 92px 48px 0;
+}
+
+/* Переломы, когда в блоке photo__gallery меняется количество столбцов */
+/* 1274 928 614 */
+@media screen and (max-width: 613px) {
+    .places {
+        margin: 64px 0 0;
+    }
+    
+}
+
+@media screen and (min-width: 614px) {
+    .places {
+        margin: 92px 24px 0;
+    }
+    
+}
+
+@media screen and (min-width: 928px) {
+    .places {
+        margin: 92px 48px 0;
+    }
+    
+}
+
+@media screen and (min-width: 1274px) {
+    .places {
+        margin: 92px 148px 0;
+    }
+    
+}
+
