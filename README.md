@@ -13,4 +13,4 @@
 **Инструкция:**
 Код проекта написан на чистом *html* и *css*, поэтому можно использовать любой современный текстовый редактор.
 
-Ссылка на мой проект: [](https://aleksey-pankov.github.io/russian-travel/)
+Ссылка на мой проект: [https://aleksey-pankov.github.io/russian-travel/](https://aleksey-pankov.github.io/russian-travel/)
