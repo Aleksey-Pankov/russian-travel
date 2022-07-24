@@ -4,7 +4,7 @@
     grid-auto-flow: column;
 }
 
-@media screen and (max-width: 673px) {
+@media screen and (max-width: 710px) {
     .footer__navi {
         grid-auto-flow: row;
         row-gap: 32px;
