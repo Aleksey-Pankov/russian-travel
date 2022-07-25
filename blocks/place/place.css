@@ -18,7 +18,7 @@
 @media screen and (max-width: 1024px) {
     .place {
         column-gap: calc(32px - (1024px - 100vw)*0.015625);
-        margin-bottom: calc(80px - (1024px -100vw)*0.02734375)
+        margin-bottom: calc(80px - (1024px - 100vw)*0.02734375);
     }
 }
 
