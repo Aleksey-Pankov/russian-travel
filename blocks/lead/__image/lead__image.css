@@ -1,0 +1,19 @@
+.lead__image {
+    width: 100%;
+    padding-bottom: 62.5%;
+    background-image: url("../../../../images/__image.jpg");
+    background-size: contain;
+    margin-top: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        margin-top: calc(64px - (1024px - 100vw)*0.03125);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        margin-top: calc(56px - (768px - 100vw)*0.0357142857142);
+    }
+}

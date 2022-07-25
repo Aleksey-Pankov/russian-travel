@@ -4,6 +4,22 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin-top: calc(92px - (1024px - 100vw)*0.015625);
+        margin-left: calc(48px - (1024px - 100vw)*0.09375);
+        margin-right: calc(48px - (1024px - 100vw)*0.09375);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin-top: 88px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
 @media screen and (max-width: 710px) {
     .footer {
         margin: 64px 0 24px 16px;
@@ -11,8 +27,3 @@
     }
 }
 
-@media screen and (max-width: 927px) {
-    .footer {
-        margin: 88px 24px 24px;
-    }
-}

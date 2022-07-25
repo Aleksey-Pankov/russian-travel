@@ -4,14 +4,14 @@
     line-height: 100px;
     color: #FFFFFF;
     width: 720px;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .lead__title {
-        font-size: 40px;
-        line-height: 44px;
-        width: 288px;
+        font-size: calc(96px - (768px - 100vw)*0.125);
+        line-height: calc(100px - (768px - 100vw)*0.125);
+        width: calc(720px - (768px - 100vw)*0.9642857142857);
     }    
 }

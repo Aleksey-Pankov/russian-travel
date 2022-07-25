@@ -5,9 +5,9 @@
     background-size: cover;
 }
 
-@media screen and (max-width: 613px) {
+@media screen and (max-width: 768px) {
     .header__logo {
-        width: 142px;
-        height: 42px;
+        width: calc(176px - (768px - 100vw)*0.0758928571428);
+        height: calc(52px - (768px - 100vw)*0.0223214285714);
     }
 }

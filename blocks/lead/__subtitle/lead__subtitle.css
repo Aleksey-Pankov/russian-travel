@@ -3,16 +3,16 @@
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
-    width: 640px;
+    max-width: 640px;
     margin: 32px auto 0;
     text-align: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .lead__subtitle {
-        font-size: 16px;
-        line-height: 20px;
-        width: 288px;
-        margin-top: 16px;
+        font-size: calc(30px - (768px - 100vw)*0.03125);
+        line-height: calc(36px - (768px - 100vw)*0.0357142857142);
+        max-width: calc(640px - (768px - 100vw)*0.7857142857142);
+        margin-top: calc(32px - (768px - 100vw)*0.0357142857142);
     }
 }

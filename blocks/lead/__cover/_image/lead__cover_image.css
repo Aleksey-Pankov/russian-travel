@@ -1,7 +1,0 @@
-.lead__cover_image {
-    min-width: 100%;
-    max-width: 984px;
-    padding-bottom: calc(100% * 0.625);
-    background-image: url("../../../../images/__image.jpg");
-    background-size: contain;
-}

@@ -1,9 +1,20 @@
 .lead {
-    margin-top: 48px;
+    margin-top: 56px;
+    margin-left: calc(148px - (1280px - 100vw)*0.390625);
+    margin-right: calc(148px - (1280px - 100vw)*0.390625);
+    margin-bottom: 0;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1024px) {
     .lead {
-        margin-top: 56px;
-    }    
+        margin-left: calc(48px - (1024px - 100vw)*0.1875);
+        margin-right: calc(48px - (1024px - 100vw)*0.1875);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
