@@ -5,6 +5,7 @@
     margin: 0;
     text-decoration: none;
     transition: opacity 0.4s ease;
+    margin-left: 18px;
 }
 
 .header__lang-link:hover {
