@@ -4,7 +4,7 @@
     padding: 0;
     display: grid;
     gap: 16px;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));    
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     line-height: 0; /* Я не знаю почему, но это значение влияло на размер блока <li></li> и добавляло лишние пиксели */
 }
 
