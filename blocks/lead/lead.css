@@ -4,15 +4,16 @@
 }
 
 @media screen and (max-width: 1280px) {
-    .lead {
-        
-    margin-left: calc(148px - (1280px - 100vw)*0.390625);
-    margin-right: calc(148px - (1280px - 100vw)*0.390625);
+    .lead {        
+        margin-left: calc(148px - (1280px - 100vw)*0.390625);
+        margin-right: calc(148px - (1280px - 100vw)*0.390625);
+        margin-top: calc(56px - (1280px - 100vw)*0.03125);
     }
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
+        margin-top: 48px;
         margin-left: calc(48px - (1024px - 100vw)*0.1875);
         margin-right: calc(48px - (1024px - 100vw)*0.1875);
     }

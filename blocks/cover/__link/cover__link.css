@@ -1,4 +1,36 @@
 .cover__link {
-    display: block;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-decoration: none;
+    background: url("../../../images/__background.jpg");
+    background-size: contain;
+    height: calc(100vw*0.625);
+}
+
+.cover__link:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.2);
+    z-index: 2;
+}
+
+.cover__link:hover:after {
+    background: rgba(0,0,0,.5);
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__link {
+        height: calc((100vw - ((100vw - 1024px)*0.375))*0.625);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__link {
+        height: 740px;
+    }
 }

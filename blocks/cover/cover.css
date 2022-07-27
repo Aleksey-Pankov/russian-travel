@@ -1,12 +1,26 @@
 .cover {
     margin-top: 92px;
-    display: flex;
-    position: relative;
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
-@media screen and (min-width: 1274px) {
+@media screen and (max-width: 1280px) {
     .cover {
-        margin-left: 48px;
-        margin-right: 48px;
+        margin-left: calc(48px - (1280px - 100vw)*0.1875);
+        margin-right: calc(48px - (1280px - 100vw)*0.1875);
+    }    
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: calc(92px - (1024px - 100vw)*0.0078125);
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin-top: calc(90px - (768px - 100vw)*0.0535714285714);
     }    
 }

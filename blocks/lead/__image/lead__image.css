@@ -1,7 +1,7 @@
 .lead__image {
     width: 100%;
     max-width: 984px;
-    background-image: url("../../../../images/__image.jpg");
+    background-image: url("../../../images/__image.jpg");
     background-size: contain;
     padding-bottom: 62.5%;
     margin-top: 64px;
@@ -16,9 +16,15 @@
     }
 }
 
+@media screen and (max-width: 1280px) {
+    .lead__image {
+        margin-top: calc(64px - (1280px - 100vw)*0.03125);
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .lead__image {
-        margin-top: calc(64px - (1024px - 100vw)*0.03125);
+        margin-top: 56px;
     }
 }
 

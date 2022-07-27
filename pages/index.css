@@ -1,6 +1,6 @@
 /* Глобальные стили */
-@import url("../styles/normalize.css");
-@import url("../vendor/Inter/inter.css"); /* Шрифты Inter */
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/inter.css"); /* Шрифты Inter */
 @import url("../blocks/body/body.css");
 @import url("../blocks/page/page.css");
 
@@ -8,13 +8,14 @@
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__lang-links/header__lang-links.css");
+@import url("../blocks/header/__lang-links/_item/header__lang-links_item.css");
 @import url("../blocks/header/__lang-link/header__lang-link.css");
+@import url("../blocks/header/__lang-link/_active/header__lang-link_active.css");
 
 /* Блок lead */
 @import url("../blocks/lead/lead.css");
 @import url("../blocks/lead/__title/lead__title.css");
 @import url("../blocks/lead/__subtitle/lead__subtitle.css");
-@import url("../blocks/lead/__cover/lead__cover.css");
 @import url("../blocks/lead/__image/lead__image.css");
 @import url("../blocks/lead/__caption/lead__caption.css");
 
@@ -23,6 +24,7 @@
 @import url("../blocks/intro/__title/intro__title.css");
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__list/intro__list.css");
+@import url("../blocks/intro/__list/_bold/intro__list_bold.css");
 
 /* Блок photo-grid */
 @import url("../blocks/photo-gallery/photo-gallery.css");
@@ -42,10 +44,8 @@
 /* Блок cover */
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__link/cover__link.css");
-@import url("../blocks/cover/__background/cover__background.css");
-@import url("../blocks/cover/__text/cover__text.css");
 @import url("../blocks/cover/__title/cover__title.css");
-@import url("../blocks/cover/__subttile/cover__subtitle.css");
+@import url("../blocks/cover/__subtitle/cover__subtitle.css");
 
 /* Блок footer */
 @import url("../blocks/footer/footer.css");
