@@ -5,7 +5,7 @@
     text-decoration: none;
     background: url("../../../images/__background.jpg");
     background-size: contain;
-    height: calc(100vw*0.625);
+    min-height: calc(100vw*0.625);
 }
 
 .cover__link:after {
@@ -15,22 +15,22 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0,0,0,.2);
+    background: rgba(42, 44, 47, .3);
     z-index: 2;
 }
 
 .cover__link:hover:after {
-    background: rgba(0,0,0,.5);
+    background: rgba(42, 44, 47, .8);
 }
 
 @media screen and (min-width: 1024px) {
     .cover__link {
-        height: calc((100vw - ((100vw - 1024px)*0.375))*0.625);
+        min-height: calc((100vw - ((100vw - 1024px)*0.375))*0.625);
     }
 }
 
 @media screen and (min-width: 1280px) {
     .cover__link {
-        height: 740px;
+        min-height: 740px;
     }
 }
