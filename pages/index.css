@@ -24,7 +24,7 @@
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__list/intro__list.css");
 @import url("../blocks/intro/__list-item/intro__list-item.css");
-@import url("../blocks/intro/__text-weigth/intro__text-weigth_bold.css");
+@import url("../blocks/intro/__text-weigth/intro__text-weigth.css");
 
 /* Блок photo-grid */
 @import url("../blocks/photo-gallery/photo-gallery.css");
